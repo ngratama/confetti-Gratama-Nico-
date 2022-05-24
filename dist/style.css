@@ -1,0 +1,29 @@
+/* No CSS */
+/* diagnostic styling */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: skyblue;
+}
+#confetti {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border-radius: 100%;
+  background: black;
+ 
+  width: 250px;
+  height: 250px;
+  font-size: 25px;
+  color: #ffc107;
+  
+  
+   transition: transform 10s ease-in-out;
+}
+
+
+#confetti:hover {
+  transform: rotate(720deg);
+}
