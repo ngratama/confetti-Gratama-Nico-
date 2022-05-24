@@ -147,8 +147,6 @@ $("#confetti").circleType({ position: "absolute" });
 
 // instantiate new object
 let confetti = new Confetti("confetti");
-
-// options
 confetti.destroyTarget(false);
 confetti.setCount(1000);
 confetti.setSize(2);
